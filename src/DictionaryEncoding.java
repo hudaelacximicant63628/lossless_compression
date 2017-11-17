@@ -73,10 +73,11 @@ public class DictionaryEncoding
             for(String m : i.split(" "))
             dictionary.put(m, dictionary.size()+1);
         }
+        ///NEW EDIT
 
         for(String m : dictionary.keySet()){
             System.out.println(m + ": " + dictionary.get(m));
         }
-
+        System.out.println("testing");
     }
 }
